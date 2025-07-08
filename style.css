@@ -1,0 +1,29 @@
+body {
+  font-style: normal;
+  font-family: Arial, sans-serif;
+  background: url(img/8YuUwpO-png-wallpapers.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  padding: 0px;
+}
+header{
+    font-size: 20px;
+    word-spacing: 10px;
+}
+nav {
+  text-decoration: none;
+}
+nav a{
+    bottom: small;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 450px;
+}
