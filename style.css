@@ -1,7 +1,7 @@
 body {
   font-style: normal;
   font-family: Arial, sans-serif;
-  background: url(img/8YuUwpO-png-wallpapers.jpg);
+  background: url(./img/8YuUwpO-png-wallpapers.jpg);
   background-attachment: fixed;
   background-position: center;
   padding: 0px;
@@ -16,6 +16,35 @@ nav {
 nav a{
     bottom: small;
 }
+.navbar {
+    background-color: #573ef5;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    display: flex;
+  }
+  
+  .navbar li {
+    flex: 1;
+    width: auto;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #398ce6;
+  }
+
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
